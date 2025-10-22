@@ -1,0 +1,23 @@
+:root{
+    --color-nav-bg: rgb(110, 236, 106);
+    --color-con-bg: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:var(--color-nav-bg)
+}
+.con{
+    background-color: var(--color-con-bg)
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
