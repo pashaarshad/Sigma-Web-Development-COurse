@@ -13,7 +13,8 @@ nav{
     background-color:var(--color-nav-bg)
 }
 .con{
-    background-color: var(--color-con-bg)
+    opacity: 10%;
+    background-color: var(--color-con-bg,red)
 }
 nav ul{
     display: flex;
